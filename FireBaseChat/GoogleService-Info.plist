@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>457937121533-ti1aqp81vjttqncrrojg64sa4ct92mvq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.457937121533-ti1aqp81vjttqncrrojg64sa4ct92mvq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCfNjeHCQ5TPe_-sBTWlpNx2Gr43hjsKvc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>457937121533</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Lambda-Shool-learner.FireBaseChat</string>
+	<key>PROJECT_ID</key>
+	<string>fir-lambdachat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-lambdachat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:457937121533:ios:5f6571e753f2a5429cce94</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-lambdachat.firebaseio.com</string>
+</dict>
+</plist>
