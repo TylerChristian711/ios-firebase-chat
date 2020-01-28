@@ -10,5 +10,6 @@ target 'FireBaseChat' do
     pod 'Firebase/Core'
     pod 'Firebase/Database'     
     pod 'MessageKit'
+    pod 'CodableFirebase'
 
 end

@@ -14,6 +14,10 @@
 		E3D5B5B323E0CC3800E9E774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D5B5B223E0CC3800E9E774 /* Assets.xcassets */; };
 		E3D5B5B623E0CC3800E9E774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D5B5B423E0CC3800E9E774 /* LaunchScreen.storyboard */; };
 		E3D5B5C123E0D2CC00E9E774 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3D5B5C023E0D2CC00E9E774 /* GoogleService-Info.plist */; };
+		E3D5B5C523E0D96F00E9E774 /* ChatRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5C423E0D96F00E9E774 /* ChatRoomsTableViewController.swift */; };
+		E3D5B5C723E0DA6A00E9E774 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5C623E0DA6A00E9E774 /* ChatRoom.swift */; };
+		E3D5B5C923E0DAAE00E9E774 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5C823E0DAAE00E9E774 /* Message.swift */; };
+		E3D5B5CC23E0E00D00E9E774 /* ChatRoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5CB23E0E00D00E9E774 /* ChatRoomController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		E3D5B5B523E0CC3800E9E774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3D5B5B723E0CC3800E9E774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3D5B5C023E0D2CC00E9E774 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3D5B5C423E0D96F00E9E774 /* ChatRoomsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsTableViewController.swift; sourceTree = "<group>"; };
+		E3D5B5C623E0DA6A00E9E774 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		E3D5B5C823E0DAAE00E9E774 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E3D5B5CB23E0E00D00E9E774 /* ChatRoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,8 @@
 		E3D5B5BD23E0CC4900E9E774 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E3D5B5C623E0DA6A00E9E774 /* ChatRoom.swift */,
+				E3D5B5C823E0DAAE00E9E774 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,8 +121,18 @@
 		E3D5B5BF23E0CC5D00E9E774 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E3D5B5CA23E0DFED00E9E774 /* Model Controller */,
+				E3D5B5C423E0D96F00E9E774 /* ChatRoomsTableViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E3D5B5CA23E0DFED00E9E774 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3D5B5CB23E0E00D00E9E774 /* ChatRoomController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,10 @@
 			files = (
 				E3D5B5AA23E0CC3600E9E774 /* AppDelegate.swift in Sources */,
 				E3D5B5AC23E0CC3600E9E774 /* SceneDelegate.swift in Sources */,
+				E3D5B5C923E0DAAE00E9E774 /* Message.swift in Sources */,
+				E3D5B5C723E0DA6A00E9E774 /* ChatRoom.swift in Sources */,
+				E3D5B5CC23E0E00D00E9E774 /* ChatRoomController.swift in Sources */,
+				E3D5B5C523E0D96F00E9E774 /* ChatRoomsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
