@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="921.73913043478262" y="89.732142857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--Chat Room Detial View Controller-->
         <scene sceneID="FIx-0D-2k1">
             <objects>
-                <viewController id="RGt-y0-N8e" sceneMemberID="viewController">
+                <viewController id="RGt-y0-N8e" customClass="ChatRoomDetialViewController" customModule="FireBaseChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="esn-A7-Vi9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

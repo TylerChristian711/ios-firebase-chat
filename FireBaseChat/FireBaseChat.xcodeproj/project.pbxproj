@@ -18,6 +18,7 @@
 		E3D5B5C723E0DA6A00E9E774 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5C623E0DA6A00E9E774 /* ChatRoom.swift */; };
 		E3D5B5C923E0DAAE00E9E774 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5C823E0DAAE00E9E774 /* Message.swift */; };
 		E3D5B5CC23E0E00D00E9E774 /* ChatRoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5CB23E0E00D00E9E774 /* ChatRoomController.swift */; };
+		E3D5B5CE23E0FD6100E9E774 /* ChatRoomDetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5CD23E0FD6100E9E774 /* ChatRoomDetialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		E3D5B5C623E0DA6A00E9E774 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		E3D5B5C823E0DAAE00E9E774 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		E3D5B5CB23E0E00D00E9E774 /* ChatRoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomController.swift; sourceTree = "<group>"; };
+		E3D5B5CD23E0FD6100E9E774 /* ChatRoomDetialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomDetialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +123,9 @@
 		E3D5B5BF23E0CC5D00E9E774 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E3D5B5CA23E0DFED00E9E774 /* Model Controller */,
 				E3D5B5C423E0D96F00E9E774 /* ChatRoomsTableViewController.swift */,
+				E3D5B5CD23E0FD6100E9E774 /* ChatRoomDetialViewController.swift */,
+				E3D5B5CA23E0DFED00E9E774 /* Model Controller */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3D5B5CE23E0FD6100E9E774 /* ChatRoomDetialViewController.swift in Sources */,
 				E3D5B5AA23E0CC3600E9E774 /* AppDelegate.swift in Sources */,
 				E3D5B5AC23E0CC3600E9E774 /* SceneDelegate.swift in Sources */,
 				E3D5B5C923E0DAAE00E9E774 /* Message.swift in Sources */,
